@@ -98,7 +98,7 @@ const layoutProps = {
 
       <ShareLinks />
     </div>
-    <script src="https://giscus.app/client.js"
+  <script src="https://giscus.app/client.js"
   data-repo="fazi-gondal/astro-blog-post"
   data-repo-id="R_kgDOMBnFLQ"
   data-category="Announcements"
@@ -111,11 +111,18 @@ const layoutProps = {
   data-theme="preferred_color_scheme"
   data-lang="en"
   data-enable-login="false"
-  data-fields='[
-    { "name": "name", "type": "text", "required": true, "label": "Name" },
-    { "name": "email", "type": "email", "required": true, "label": "Email" },
-    { "name": "comment", "type": "textarea", "required": true, "label": "Comment" }
-  ]'
+  data-custom-form='
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <br>
+      <label for="comment">Comment:</label>
+      <textarea id="comment" name="comment" required></textarea>
+    </div>
+  '
   crossorigin="anonymous"
   async>
 </script>
