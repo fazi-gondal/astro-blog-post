@@ -99,19 +99,25 @@ const layoutProps = {
       <ShareLinks />
     </div>
     <script src="https://giscus.app/client.js"
-        data-repo="fazi-gondal/astro-blog-post"
-        data-repo-id="R_kgDOMBnFLQ"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOMBnFLc4Cf9Dv"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="preferred_color_scheme"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
+  data-repo="fazi-gondal/astro-blog-post"
+  data-repo-id="R_kgDOMBnFLQ"
+  data-category="Announcements"
+  data-category-id="DIC_kwDOMBnFLc4Cf9Dv"
+  data-mapping="pathname"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="top"
+  data-theme="preferred_color_scheme"
+  data-lang="en"
+  data-enable-login="false"
+  data-fields='[
+    { "name": "name", "type": "text", "required": true, "label": "Name" },
+    { "name": "email", "type": "email", "required": true, "label": "Email" },
+    { "name": "comment", "type": "textarea", "required": true, "label": "Comment" }
+  ]'
+  crossorigin="anonymous"
+  async>
 </script>
   </main>
   <Footer />
