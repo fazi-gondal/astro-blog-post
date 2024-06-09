@@ -6,6 +6,7 @@ title: Adding new posts in AstroPaper theme
 slug: adding-new-posts-in-astropaper-theme
 featured: true
 draft: false
+heroImage: /post/astro.png
 tags:
   - docs
 description:
@@ -14,6 +15,17 @@ description:
 ---
 
 Here are some rules/recommendations, tips & ticks for creating new posts in AstroPaper blog theme.
+<!-- <div>
+  <iframe
+  src="https://player.cloudinary.com/embed/?public_id=LEVELS_-_Official_Video___Sidhu_Moose_Wala___ft._Sunny_Malton___The_Kidd_2023___New_Viral_video_Song_1080P_HD_lupl7s&cloud_name=dvppyzhws&player[pictureInPictureToggle]=true&player[showJumpControls]=true&player[hideContextMenu]=true&player[logoOnclickUrl]=https%3A%2F%2Ffaziblog.pages.dev%2F&player[logoImageUrl]=https%3A%2F%2Fres.cloudinary.com%2Fdvppyzhws%2Fimage%2Fupload%2Fv1716914179%2Fdev_gikogm.webp&player[posterOptions][transformation][startOffset]=3&source[sourceTypes][0]=hls"
+  width="640"
+  height="360" 
+  style="height: auto; width: 100%; aspect-ratio: 640 / 360;"
+  allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+  allowfullscreen
+  frameborder="0"
+></iframe>
+</div> -->
 
 ## Table of contents
 

@@ -1,14 +1,15 @@
 ---
 author: Faizan Gondal
-pubDatetime: 2024-05-13
-modDatetime: 2024-05-13
-title: Business Law Mcqs By Hira Arshad
+pubDatetime: 2024-06-06
+modDatetime: 2024-06-06
+title: Business Law Mcqs By Prof. Hira Arshad
 featured: true
 draft: false
+heroImage: https://res.cloudinary.com/dvppyzhws/image/upload/v1717693484/b.law1_hndnvs.png
 tags:
     - "Business Law "
-    - B.law
-    - "Mcqs "
+    - "B law"
+    - "Mcqs"
 description: Business Law Mcqs By Hira Arshad.
 slug: business-law-mcqs-hira-arshad
 ---

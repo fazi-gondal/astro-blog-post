@@ -9,7 +9,7 @@ export interface Props {
 }
 
 export default function Card({ href, frontmatter, secHeading = true }: Props) {
-  const { title, pubDatetime, modDatetime, description } = frontmatter;
+  const { title, pubDatetime, modDatetime, description, heroImage } = frontmatter;
 
   const headerProps = {
     style: { viewTransitionName: slugifyStr(title) },
@@ -18,9 +18,19 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
 
   return (
     <li className="my-6">
+      <div className="mb-2">
+        {heroImage && (
+          <img
+            className="border border-slate-300 rounded-xl"
+            style={{ width: "100%", height: "100%", objectFit: "cover" }}
+            src={heroImage}
+            alt=""
+          />
+        )}
+      </div>
       <a
         href={href}
-        className="inline-block text-lg font-medium text-skin-accent decoration-dashed underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0"
+        className="inline-block text-lg font-medium text-skin-accent decoration-dashed underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0 mb-2"
       >
         {secHeading ? (
           <h2 {...headerProps}>{title}</h2>
@@ -28,6 +38,7 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
           <h3 {...headerProps}>{title}</h3>
         )}
       </a>
+      
       <Datetime pubDatetime={pubDatetime} modDatetime={modDatetime} />
       <p>{description}</p>
     </li>
