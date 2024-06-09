@@ -16,7 +16,7 @@ content:
       - { name: slug, label: Slug, type: string }
       - { name: featured, label: Featured, type: boolean }
       - { name: draft, label: Draft, type: boolean }
-      - { name: heroimage, label: Hero Image, type: image, options: { input: public/post, output: /post } }
+      - { name: heroImage, label: Hero Image, type: image, options: { input: public/post, output: /post } }
       - { name: tags, label: Tags, type: string, list: true }
       - { name: description, label: Description, type: string }
       - { name: body, label: Body, type: rich-text }
