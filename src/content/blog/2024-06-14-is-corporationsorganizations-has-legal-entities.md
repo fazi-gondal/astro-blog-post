@@ -2,7 +2,7 @@
 author: Prof. Hira Arshad
 pubDatetime: 2024-06-14
 modDatetime: 2024-06-14
-title: Is Corporations/Organizations has Legal Entities?
+title: Is Corporations has Legal Entities?
 featured: true
 draft: false
 heroImage: /post/company.png
@@ -643,7 +643,3 @@ Incorporation and dissolution are two crucial processes that define the lifecycl
 ### Importance of Incorporation and Dissolution:
 
 Incorporation establishes a company as a separate legal entity with limited liability protections, allowing it to conduct business and attract investment. Dissolution, on the other hand, allows for the orderly closure of operations, settlement of obligations, and termination of legal responsibilities. Understanding these processes is crucial for entrepreneurs, investors, and stakeholders involved in forming or winding up corporate entities effectively and in compliance with legal requirements.
-
-<div>
-<button style="width: 150px; height: 50px; background-color: rgb(255,107,1); border-radius: 5px; -webkit-text-fill-color: #ffffff;"><a href="https://res.cloudinary.com/dvppyzhws/image/upload/v1718389332/company_daz646.pdf">Download Pdf</button>
-</div>
