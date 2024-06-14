@@ -5,7 +5,7 @@ modDatetime: 2024-06-14
 title: Is Corporations/Organizations has Legal Entities?
 featured: true
 draft: false
-heroImage: /post/b.law.png
+heroImage: /post/company.png
 tags:
   - B law
   - Prof. Hira Arshad
