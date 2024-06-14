@@ -5,7 +5,7 @@ modDatetime: 2024-06-11
 title: How Do I Develop My Terminal Portfolio Website with React
 slug: how-do-i-develop-my-terminal-portfolio-website-with-react
 featured: false
-draft: false
+draft: true
 heroImage: /post/astro.png
 tags:
   - JavaScript
