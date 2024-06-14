@@ -5,7 +5,7 @@ modDatetime: 2024-06-14
 title: Is Corporations/Organizations has Legal Entities?
 featured: true
 draft: false
-heroImage: /post/company.png
+heroImage: /post/b.law.png
 tags:
   - B law
   - Prof. Hira Arshad
@@ -13,7 +13,6 @@ description: Corporations/Organizations/Legal Entities? Sole Proprietorship?
   Partnership? Companies- Significant features, Incorporation and Dissolution?
   Partnership Characteristics of Partnership.
 ---
-
 # Is Corporations/Organizations has Legal Entities?
 
 Yes, corporations and organizations can be considered legal entities, separate from their owners and operators. This means they have a legal existence independent of their shareholders, members, or owners.
