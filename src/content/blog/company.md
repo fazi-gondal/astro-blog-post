@@ -2,7 +2,8 @@
 author: Prof. Hira Arshad
 pubDatetime: 2024-06-14
 modDatetime: 2024-06-14
-title: Is Corporations has Legal Entities?
+title: Is Corporations has Legal Entities
+slug: is-corporations-has-legal-entities
 featured: true
 draft: false
 heroImage: /post/company.png
@@ -10,8 +11,6 @@ tags:
   - B law
   - Prof. Hira Arshad
 description: Corporations/Organizations/Legal Entities? Sole Proprietorship?
-  Partnership? Companies- Significant features, Incorporation and Dissolution?
-  Partnership Characteristics of Partnership.
 ---
 ### Is Corporations and Organizations has Legal Entities?
 
@@ -642,3 +641,17 @@ Incorporation and dissolution are two crucial processes that define the lifecycl
 ### Importance of Incorporation and Dissolution:
 
 Incorporation establishes a company as a separate legal entity with limited liability protections, allowing it to conduct business and attract investment. Dissolution, on the other hand, allows for the orderly closure of operations, settlement of obligations, and termination of legal responsibilities. Understanding these processes is crucial for entrepreneurs, investors, and stakeholders involved in forming or winding up corporate entities effectively and in compliance with legal requirements.
+<div>
+<style>
+.btn{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(255,107,1);
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: #262A56;
+}
+</style>
+<button class="btn" ><a href="/file/company.pdf">Download Pdf</button>
+</div>
