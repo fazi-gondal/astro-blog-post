@@ -12,6 +12,9 @@ tags:
   - Prof. Hira Arshad
 description: Corporations/Organizations/Legal Entities? Sole Proprietorship?
 ---
+
+<div style="max-width: auto; margin: 20px auto; padding: 20px; box-shadow: 0 0 10px rgba(255, 107, 1, 0.8);">
+
 ### Is Corporations and Organizations has Legal Entities?
 
 Yes, corporations and organizations can be considered legal entities, separate from their owners and operators. This means they have a legal existence independent of their shareholders, members, or owners.
@@ -641,7 +644,7 @@ Incorporation and dissolution are two crucial processes that define the lifecycl
 ### Importance of Incorporation and Dissolution:
 
 Incorporation establishes a company as a separate legal entity with limited liability protections, allowing it to conduct business and attract investment. Dissolution, on the other hand, allows for the orderly closure of operations, settlement of obligations, and termination of legal responsibilities. Understanding these processes is crucial for entrepreneurs, investors, and stakeholders involved in forming or winding up corporate entities effectively and in compliance with legal requirements.
-<div>
+
 <style>
 .btn{
     width: 150px;
@@ -650,7 +653,10 @@ Incorporation establishes a company as a separate legal entity with limited liab
     border-radius: 5px;
 }
 .btn:hover{
-    background-color: #262A56;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.btn{
+box-shadow: 0 0 10px rgba(255, 107, 1, 0.8);
 }
 </style>
 <button class="btn" ><a href="/file/company.pdf">Download Pdf</button>

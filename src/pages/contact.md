@@ -3,7 +3,7 @@ layout: ../layouts/ContactLayout.astro
 title: Contact
 ---
 <div>
-  <form action="https://api.staticforms.xyz/submit" method="post" style="max-width: 500px; margin: 40px auto; padding: 20px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+  <form action="https://api.staticforms.xyz/submit" method="post" style="max-width: 500px; margin: 40px auto; padding: 20px; box-shadow: 0 0 10px rgba(255, 107, 1, 0.8);">
   <label for="name" style="display: block; margin-bottom: 10px; color: rgb(255,107,1);">Name:</label>
   <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc;">
   
