@@ -98,38 +98,24 @@ const layoutProps = {
 
       <ShareLinks />
     </div>
-<div id="graphcomment"></div>
-<script type="text/javascript">
-
-  /* - - - CONFIGURATION VARIABLES - - - */
-
-  var __semio__params = {
-    graphcommentId: "Fazi-blog", // make sure the id is yours
-
-    behaviour: {
-      // HIGHLY RECOMMENDED
-      //  uid: "...", // uniq identifer for the comments thread on your page (ex: your page id)
-    },
-
-    // configure your variables here
-
-  }
-
-  /* - - - DON'T EDIT BELOW THIS LINE - - - */
-
-  function __semio__onload() {
-    __semio__gc_graphlogin(__semio__params)
-  }
-
-
-  (function() {
-    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-  })();
-  
-
-</script>
+    <div id="disqus_thread"></div>
+    <script>
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://faziblog.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
   </main>
   <Footer />
 </Layout>
