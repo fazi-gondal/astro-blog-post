@@ -10,6 +10,7 @@ tags:
   - FAQ
 description: How to update project dependencies and AstroPaper template.
 ---
+
 Updating the dependencies of a project can be tedious. However, neglecting to update project dependencies is not a good idea either 😬. In this post, I will share how I usually update my projects, focusing on AstroPaper as an example. Nonetheless, these steps can be applied to other js/node projects as well.
 
 ![Forrest Gump Fake Quote](/assets/forrest-gump-quote.webp)
@@ -50,7 +51,7 @@ ncu -i
 
 If there are any major updates (or some updates you still have to make), the above command will output those remaining packages. If the package is a major version update, you have to be very careful since this will likely break the whole project. Therefore, please read the respective release note (or) docs very carefully and make changes accordingly.
 
-If you run `ncu -i` and found no more packages to be updated, _**Congrats!!!**_ you have successfully updated all the dependencies in your project.
+If you run `ncu -i` and found no more packages to be updated, **_Congrats!!!_** you have successfully updated all the dependencies in your project.
 
 ## Updating AstroPaper template
 
